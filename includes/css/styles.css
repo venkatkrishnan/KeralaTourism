@@ -1,0 +1,357 @@
+/*
+
+Kerala Tourism CSS
+=============
+
+Author:  Venkatakrishnan
+Updated: November 2015
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+  body {
+    font-family: 'Raleway', sans-serif;
+  }
+
+  #login #password, #register #cnfmpassword {
+    margin-bottom: 15px;
+  }
+
+  .alert {
+    margin-top: 20px;
+    display: none;
+  }
+
+  #main-section-portfolio .grid_4 h3, #main-section-portfolio .grid_4 h5 {
+    height: 15px;
+  }
+
+  #main-section-portfolio .read-more {
+    text-decoration: none;
+    color: #000;
+  }
+
+  #main-section-portfolio a:hover {
+    color: blue;
+    font-size: 14.2px;
+  }
+
+  #indexpage {
+    margin: 350px 400px;
+  }
+
+  #indexpage a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #2EFE2E;
+  }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+  .navbar {
+    background: #fff;
+  }
+
+  .navbar-brand {
+    padding: 10px 15px;
+  }
+
+  nav a:hover {
+    font-size: 16px;
+  }
+
+  #showall {
+    font-style: italic;
+  }
+
+  .navbar-brand img {
+    width: 100px;
+    height: 30px;
+  }
+
+/* --------------------------------------
+   PageTitle
+   -------------------------------------- */
+
+  #page-title {
+   margin-top: 60px;
+  }
+
+  #page-title h1 {
+   font-family:'Raleway', sans-serif;
+   text-transform: uppercase;
+  }
+
+  #page-title .well {
+     height: 135px;
+  }
+
+  .well .page-header {
+    margin-top: 0px;
+  }
+
+  .well .page-header h1 {
+    margin-top: 0px;
+  }
+
+  .breadcrumb {
+    font-style: italic;
+    font-size: 12px;
+    margin-bottom: 0px;
+  }
+
+/* --------------------------------------
+   Image Details
+   -------------------------------------- */
+
+  #feature {
+   text-align: center;
+  }
+
+  #feature img {
+   width: 200px;
+   height: 200px;
+   margin-bottom: 10px;
+  }
+
+  #main-section-portfolio img, #hill img {
+   width: 320px;
+   height: 200px;
+   margin: 10px 0;
+  }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+  #myCarousel {
+   margin-top: 30px;
+   margin-bottom: 30px;
+  }
+
+  #myCarousel .item {
+  height: 400px;
+  }
+
+  #slide1 {
+    background: url('../../img/banner-medium-01.jpg') top center no-repeat;
+  }
+
+  #slide2 {
+    background: url('../../img/banner-medium-02.jpg') top center no-repeat;
+  }
+
+  #slide3 {
+    background: url('../../img/banner-medium-03.jpg') top center no-repeat;
+  }
+
+  .carousel-caption {
+   margin-bottom: 180px;
+  }
+
+  #slide1 .carousel-caption {
+   text-shadow: 5px 5px 5px #04B404;
+  }
+
+  #slide2 .carousel-caption {
+   font-size: 20px;
+   text-shadow: 5px 5px 5px red;
+  }
+
+  #slide3 .carousel-caption {
+   font-size: 25px;
+   text-shadow: 5px 5px 5px #04B404;
+  }
+
+/* -------------------------------------
+    Others
+   -------------------------------------- */
+
+  .aboutkerala .service_1 img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .aboutkerala .service_1 img {
+    margin-left: 50px;
+  }
+
+  #otherDetails .leftSide p {
+    margin: 20px 0px;
+  }
+
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+
+  footer {
+   background: #333;
+   color: #eee;
+   font-size: 11px;
+   padding: 20px;
+  }
+
+  .row .social_share img {
+   width: 25px;
+   height: 25px;
+   margin-right: 10px;
+  }
+
+  footer .row img {
+   width: 300px;
+   height: 50px;
+  }
+
+  footer a {
+   text-decoration: none;
+   color: #CCC;
+  }
+
+  footer ul {
+   list-style-type: none;
+   margin-left: -20px;
+   margin-top: 15px;
+  }
+
+  #copyrites h6, .contact_for_help p{
+   width: 40%;
+   margin: auto;
+   margin-top: 10px;
+   font-size: 100%;
+  }
+
+  #contact {
+   margin-top: 20px;
+  }
+
+  .contact_for_help {
+   height: 70px;
+   padding-top: 20px;
+   background: rgb(26, 188, 156);
+  }
+
+  .contact_for_help p {
+   color: #fff;
+   font-size: 26px;
+   width: 50%;
+   margin: auto;
+  }
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+  @media (max-width: 480px) {
+
+  }
+
+/* Landscape phone to portrait tablet */
+  @media (max-width: 768px) {
+    #myCarousel .item {
+      height: 310px;
+    }
+
+    #slide1 {
+      background: url('../../img/banner-small-01.jpg') top center no-repeat;
+    }
+
+    #slide2 {
+      background: url('../../img/banner-small-02.jpg') top center no-repeat;
+    }
+
+    #slide3 {
+      background: url('../../img/banner-small-03.jpg') top center no-repeat;
+    }
+
+    .carousel-caption {
+      margin-bottom: 80px;
+    }
+
+    .carousel-caption h3 {
+      font-size: 20px;
+    }
+
+    .breadcrumb {
+      display: none;
+    }
+  }
+
+/* Large desktop */
+  @media (min-width: 1200px) {
+    #myCarousel .item {
+      height: 500px;
+    }
+
+    #slide1 {
+      background: url('../../img/banner-large-01.jpg') top center no-repeat;
+    }
+
+    #slide2 {
+      background: url('../../img/banner-large-02.jpg') top center no-repeat;
+    }
+
+    #slide3 {
+      background: url('../../img/banner-large-03.jpg') top center no-repeat;
+    }
+  }
+
+/* Custom media */
+  @media (min-width: 768px) and (max-width: 1200px) {
+    .contact_for_help p {
+      font-size: 18px;
+    }
+
+    #otherDetails .leftSide img {
+      width: 350px;
+    }
+
+    .carousel-caption {
+      margin-bottom: 120px;
+    }
+
+    .carousel-caption h3 {
+      font-size: 20px;
+    }
+  }
+
+  @media (min-width: 991px) and (max-width: 1200px) {
+    .aboutkerala .service_2 img {
+      width: 280px;
+      margin-top: 30px;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .aboutkerala .service_1 img, .aboutkerala .service_2 img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .aboutkerala .service_1 img, .aboutkerala .service_2 img {
+      margin-left: 0px;
+    }
+
+    .aboutkerala .service_2 img {
+      margin-top: 30px;
+    }
+
+    .navbar-responsive-collapse ul a {
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+
+    footer .row img {
+      width: 250px;
+    }
+  }
+
+  @media (max-width: 498px) {
+
+  }
