@@ -243,6 +243,14 @@ Updated: November 2015
    margin: auto;
   }
 
+  footer {
+    font-size: 13px;
+  }
+
+  #copyrites {
+    font-size: 12px;
+  }
+
   .css3gradient{
    background-color:#ffffff;
    filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#ffffff, endColorstr=#05e8bb);
