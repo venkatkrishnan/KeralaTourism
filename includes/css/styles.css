@@ -243,13 +243,24 @@ Updated: November 2015
    margin: auto;
   }
 
+  .css3gradient{
+   background-color:#ffffff;
+   filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#ffffff, endColorstr=#05e8bb);
+   background-image:-moz-linear-gradient(left, #ffffff 0%, #05e8bb 50%,#ffffff 100%);
+   background-image:linear-gradient(left, #ffffff 0%, #05e8bb 50%,#ffffff 100%);
+   background-image:-webkit-linear-gradient(left, #ffffff 0%, #05e8bb 50%,#ffffff 100%);
+   background-image:-o-linear-gradient(left, #ffffff 0%, #05e8bb 50%,#ffffff 100%);
+   background-image:-ms-linear-gradient(left, #ffffff 0%, #05e8bb 50%,#ffffff 100%);
+   background-image:-webkit-gradient(linear, left bottom, right bottom, color-stop(0%,#ffffff), color-stop(50%,#05e8bb),color-stop(100%,#ffffff));
+  }
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
   @media (max-width: 480px) {
-    
+
   }
 
 /* Landscape phone to portrait tablet */
